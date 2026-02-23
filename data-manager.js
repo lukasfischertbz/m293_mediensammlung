@@ -26,7 +26,6 @@ mainContainer.replaceChildren(
     const entry = entryTemplate?.cloneNode(1);
     entry.querySelector("#label").innerText = title;
     entry.querySelector("img").src = image;
-    entry.querySelector("a").href = src ?? null;
     entry.querySelector("#length").innerText = length ?? null;
     return entry;
   }),
