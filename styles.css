@@ -1,7 +1,21 @@
+:root {
+    --color-primary: #8b6914;
+    --color-secondary: #ebc871;
+    --color-time: rgb(79, 78, 78);
+    --color-text: #e8e6e3;
+    --color-bg: #181a1b;
+    --spacing: 20px;
+    --radius: 14px;
+}
+
+* {
+    color: var(--color-text);
+    text-transform: capitalize;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: var(--color-text);
     background: var(--color-bg);
 }
 
@@ -17,6 +31,13 @@ body {
     height: 50%;
 }
 
-.sidebar > * > div > h2 {
-    margin: 10px;
+.sidebar > * > div > h2,
+.category {
+    margin: 12px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: --color-time;
+    transition: 1s;
 }
