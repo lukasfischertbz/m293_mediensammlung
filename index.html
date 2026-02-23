@@ -1,4 +1,36 @@
 <!doctype html>
-<head></head>
-<body></body>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+            <div>
+                <h2>Kategorien</h2>
+            </div>
+            <div id="category-container"></div>
+
+            <template id="category-template">
+                <div class="category"></div>
+            </template>
+        </div>
+        <div>
+            <div>
+                <h2>Filter</h2>
+            </div>
+            <div>
+                <input type="text" hidden></input>
+
+                <ul id="filter-container"></ul>
+
+                <template id="filter-template">
+                    <div class="filter-option">
+                        <div></div>
+                        <input type="checkbox">
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+</body>
 <footer></footer>
