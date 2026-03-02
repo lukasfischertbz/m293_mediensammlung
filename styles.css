@@ -57,12 +57,14 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     width: 100%;
+    padding: 20px 40px;
 }
 
 .entry {
     height: 200px;
     display: inline-flex;
     width: 100%;
+    transition: transform 0.2s;
 }
 
 .entry img,
@@ -82,4 +84,10 @@ length {
 
 #filter-container {
     padding: 14px;
+}
+
+.entry:hover {
+    transform: scale(1.5);
+    z-index: 100;
+    cursor: pointer;
 }

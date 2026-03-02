@@ -26,6 +26,7 @@ mainContainer.replaceChildren(
     const entry = entryTemplate?.cloneNode(1);
     entry.querySelector("#label").innerText = title;
     entry.querySelector("img").src = image;
+    entry.querySelector(".entry").dataset.source = src;
     entry.querySelector("#length").innerText = length ?? null;
     return entry;
   }),
@@ -35,4 +36,8 @@ const mainGrid = $("main");
 
 window.addEventListener("resize", (e) => {
   mainGrid.style.gridTemplateColumns = `repeat(${mainGrid.getClientRects()[0].width / 500}, auto)`;
+});
+
+mainGrid.addEventListener("click", (e) => {
+  window.open(e.target.closest(".entry").dataset.source);
 });
