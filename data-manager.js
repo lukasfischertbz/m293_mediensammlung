@@ -30,3 +30,9 @@ mainContainer.replaceChildren(
     return entry;
   }),
 );
+
+const mainGrid = $("main");
+
+window.addEventListener("resize", (e) => {
+  mainGrid.style.gridTemplateColumns = `repeat(${mainGrid.getClientRects()[0].width / 500}, auto)`;
+});
