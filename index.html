@@ -4,39 +4,17 @@
     <script src="data-manager.js" type="module"></script>
 </head>
 <body>
-    <div class="sidebar">
-        <div>
-            <div>
-                <h2>Kategorien</h2>
-            </div>
-            <div id="category-container"></div>
-
-            <template id="category-template">
-                <div class="category">
-                    <h3 id="label"></h3>
-                </div>
-            </template>
-        </div>
-        <div>
-            <div>
-                <h2>Filter</h2>
-            </div>
-            <div>
-                <input type="text"></input>
-            </div>
-        </div>
-    </div>
     <main id="main-content-list"></main>
 
     <template id="main-content-entry">
         <div class="entry">
             <div>
-                <img>
+                <img />
             </div>
             <div id="textbox">
                 <h2 id="label"></h2>
 
-                <h4 id="length"></h4>
+                <h4 id="release-date"></h4>
             </div>
         </div>
     </template>

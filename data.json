@@ -1,33 +1,26 @@
 [
   {
-    "category": "film",
-    "contents": [
-      {
-        "title": "Hardcore Henry",
-        "image": "https://i1.ytimg.com/vi/2tG-GeWZhEs/hqdefault.jpg",
-        "length": 5810,
-        "src": "https://www.youtube.com/watch?v=2tG-GeWZhEs"
-      }
-    ]
+    "title": "Hardcore Henry",
+    "image": "https://i1.ytimg.com/vi/2tG-GeWZhEs/hqdefault.jpg",
+    "release": "2015",
+    "src": "https://www.youtube.com/watch?v=2tG-GeWZhEs"
   },
   {
-    "category": "spiel",
-    "contents": [
-      {
-        "title": "TetrIO",
-        "image": "https://tetr.io/res/logo.png",
-        "src": "https://tetr.io/"
-      }
-    ]
+    "title": "Opfergang",
+    "image": "https://i1.ytimg.com/vi/Wgz9ChAQDvk/hqdefault.jpg",
+    "release": "1944",
+    "src": "https://www.youtube.com/watch?v=Wgz9ChAQDvk"
   },
   {
-    "category": "musikalben",
-    "contents": [
-      {
-        "title": "burzum",
-        "image": "https://i.ytimg.com/vi/-ZENtivAi6I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBG4uyGeDGc7TYoJhXdxYdzUOtNVw",
-        "src": "https://www.youtube.com/watch?v=-ZENtivAi6I&list=RDEMbNDAgPMWXOlDtoyevVAnwg&start_radio=1"
-      }
-    ]
+    "title": "Zero Day",
+    "image": "https://i1.ytimg.com/vi/vynXQsl1rJc/hqdefault.jpg",
+    "release": "2015",
+    "src": "https://www.youtube.com/watch?v=vynXQsl1rJc"
+  },
+  {
+    "title": "Faust",
+    "image": "https://i1.ytimg.com/vi/3S-P_R8EC2g/hqdefault.jpg",
+    "release": "2015",
+    "src": "https://www.youtube.com/watch?v=3S-P_R8EC2g"
   }
 ]
